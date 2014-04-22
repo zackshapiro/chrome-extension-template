@@ -17,7 +17,4 @@ I wanted to create this for myself, as a start place for future extensions, but 
 
 Feel free to clone this repo and submit a pull request to add other basic elements of a useful Chrome extension.
 
-
-
-
-*Created by [@ZackShapiro](http://twitter.com/zackshapiro)*
+*Created by [@ZackShapiro](http://twitter.com/zackshapiro) under the MIT License.*
