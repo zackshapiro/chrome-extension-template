@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Example Chrome Extension",
+  "description": "",
+  "version": "0.0.1",
+  "background": {
+    "scripts": ["/src/background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://google.com/*"],
+      "js": ["/lib/zepto.min.js", "/src/content.js"],
+      "all_frames": true
+    }
+  ],
+  "browser_action": { "default_popup": "/src/popup.html" },
+  "permissions": ["*://google.com/*"],
+  "content_security_policy": "script-src 'self' https://cdn.mxpnl.com; object-src 'self'"
+}
